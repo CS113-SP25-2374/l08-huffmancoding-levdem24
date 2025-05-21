@@ -2,12 +2,12 @@ public class Main {
     public static void main(String[] args) {
         HuffmanInterface huffmanCoding = new HuffmanCoding();
 
-        String message = "Your Name Goes Here";
+        String message = "Levon";
 
         String encoded = huffmanCoding.encode(message);
-        System.out.println(encoded);
+        System.out.println("Encoded:\n" + encoded);
 
         String decoded = huffmanCoding.decode(encoded);
-        System.out.println(decoded);
+        System.out.println("Decoded:\n" + decoded);
     }
 }
